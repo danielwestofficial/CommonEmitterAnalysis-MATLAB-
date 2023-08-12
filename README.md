@@ -1,7 +1,8 @@
 # CommonEmitterAnalysis
-This function performs an electrical analysis of a BJT common emitter amplifier. 
+This function performs an electrical analysis of a BJT common emitter amplifier.
+
 function[VB, VE, ICEQ, VC, VCEQ, re, rc, Zbase, Zin, Zout, Vin, Av, Vout, REop, MPP, Ibias, IS, PD, PL, PS, Efficiency, VCEcutoff, ICsaturation, ACcutoff, ACsaturation] = CommonEmitterAnalysis(VCC, Beta, RS, R1, R2, RE1, RE2, RC, RL, Zg, Vs, VA, Frequency, Duration)
-This function performs an analysis of a common emitter amplifier. 
+
 The code takes in the inputs which are the amplitude of the DC source (VCC). 
 The amplitude, impedance, frequency, and duration of the AC voltage source.
 The transistor characteristics including Beta gain and Early Voltage.
